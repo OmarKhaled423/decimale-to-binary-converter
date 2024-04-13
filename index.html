@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimale to Binary Code Converter</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <h1>Binary Converter</h1>
+        </div>
+        <div class="row">
+            <div class="left_side">
+                <h3>Number System Conversion</h3>
+                <form id="form">
+                    <div class="input_group">
+                        <label for="decimale">Decimale Number</label>
+                        <input type="text" name="decimale" class="decimale" id="decimale">
+                    </div>
+                    <div class="input_group">
+                        <label for="binary">Binary Number</label>
+                        <input type="text" name="binary" class="binary" id="binary">
+                    </div>
+                    <div class="input_group">
+                        <label for="octal">Octal Number</label>
+                        <input type="text" name="octal" class="octal" id="octal">
+                    </div>
+                    <div class="input_group">
+                        <label for="hexadecimale">Hexadecimale
+                        </label>
+                        <input type="text" name="hexadecimale" class="hexadecimale" id="hexadecimale">
+                    </div>
+                    <div class="button-box" id="button_box">
+                        <input type="reset" name="reset" class="numbers_reset_btn" id="numbers_reset_btn">
+                    </div>
+                </form>
+            </div>
+            <div class="right_side">
+                <h3>Text Conversion</h3>
+                <form id="form">
+                    <div class="input_area_group">
+                        <label for="text_input_area">Enter your text below</label>
+                        <textarea name="text_input_area" class="text_input_area" id="text_input_area"></textarea>
+                    </div>
+                    <div class="input_area_group">
+                        <label for="binary_input_area">Enter your binary code below</label>
+                        <textarea name="binary_input_area" class="binary_input_area" id="binary_input_area"></textarea>
+                    </div>
+                    <div class="button-box">
+                        <input type="reset" name="reset" class="textarea_reset_btn" id="texarea_reset_btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
